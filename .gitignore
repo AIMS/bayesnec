@@ -16,6 +16,7 @@ bayesnec.Rcheck/
 bayesnec*tar.gz
 inst/doc
 inst/web
+src/bayesnec.so
 
 # cpp files
 src/*.o
