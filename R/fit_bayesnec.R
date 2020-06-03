@@ -44,7 +44,7 @@ fit_bayesnec <- function(data, x_var, y_var, trials_var = NA,
     priors <- data_check$priors
     mod_family <- data_check$mod_family
   }
-  y_type_name <- names(mod_fams)[mod_fams == y_type]
+  y_type_name <- names(mod_fams)[names(mod_fams) == y_type]
   fit <- fit_stan(model = model, y_type = y_type_name,
                   new_priors = priors, new_data = mod_dat,
                   chains = 4, ...)
