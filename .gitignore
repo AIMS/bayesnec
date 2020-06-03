@@ -18,6 +18,6 @@ inst/doc
 inst/web
 
 # cpp files
-src/*.o$
-src/*.cc$
-src/*.h$
+src/*.o
+src/*.cc
+src/*.h
