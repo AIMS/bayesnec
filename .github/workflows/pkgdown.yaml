@@ -29,10 +29,7 @@ jobs:
 
       - name: Install package
         run: |
-          install.packages(c("Rcpp", "RcppParallel", "rstantools", "pkgbuild", "roxygen2", "devtools"))
-          pkgbuild::compile_dll()
-          roxygen2::roxygenise()
-          devtools::build()
+          install.packages("devtools")
           devtools::install(quick = FALSE, build_vignettes = FALSE)
         shell: Rscript {0}
 
