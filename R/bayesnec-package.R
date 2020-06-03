@@ -8,8 +8,6 @@
 #' @useDynLib bayesnec, .registration = TRUE
 #' @import methods
 #' @import Rcpp
-#' @import RcppParallel
-#' @import rstantools
 #' @import rstan
 #'
 #' @references
